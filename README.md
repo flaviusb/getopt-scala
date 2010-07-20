@@ -5,7 +5,7 @@ This attempts to be for Scala like GetOpts::Long is for Perl.
 
 To use...
 
-This requires [Scala 2.8][scala], and [Jena][jena]. Build with [sbt][sbt], with the commands
+This requires [Scala 2.8][scala]. Build with [sbt][sbt], with the commands
     sbt update
     sbt compile
 
@@ -17,6 +17,5 @@ The jar can be invoked on the command line, as long as the Scala 2.8 jars, the J
     java org.cellml.metadata_editor.MetadataEditor
 
 [scala]: http://scala-lang.org/ "Scala language"
-[jena]:  http://jena.sourceforge.net/ "Jena RDF Framework"
 [sbt]:   http://code.google.com/p/simple-build-tool/ "Simple build tool"
 [rocco]: http://github.com/rtomayko/rocco "Rocco documentation generator"
